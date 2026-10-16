@@ -52,7 +52,7 @@ A few NSP extensions we’ve built:
 
 <div class="grid cards nsp-extension-cards" markdown>
 
-- [:fontawesome-brands-github:{.sm} NSP Intent Manager](https://github.com/nokia/vscode-intent-manager)
+- [:fontawesome-brands-github:{.sm} NSP Network Intents](https://github.com/nokia/vscode-intent-manager)
 
 - [:fontawesome-brands-github: NSP Workflow Manager](https://github.com/nokia/vscode-workflow-manager)
 
