@@ -12,6 +12,9 @@ Enabling network connectivity between the hosts in a datacenter or across differ
 
 Nokia EDA provides a declarative and abstracted way to define connectivity in your datacenter ranging from simple layer 2 connectivity to complex overlay services and DCI (Data Center Interconnect).
 
+/// admonition
+    type: tip
+
 This is the first exercise in a 3-part series around using EDA to achieve connectivity to, from, and within your datacenter. In this exercise, we will achieve layer-2 connectivity between two hosts in the same broadcast domain.
 
 - **Part 1 (this activity)**: achieve layer-2 connectivity using bridge domains
@@ -19,6 +22,8 @@ This is the first exercise in a 3-part series around using EDA to achieve connec
 - **[Part 3](virtual-networks.md)**: combine layer-2 and layer-3 connectivity through a single EDA object - the Virtual Network (VNET)
 <!-- RDodin: will comment this out for now. We need to solve it with the official SDK -->
 <!-- - **[Part 4](../advanced/service-automation.md)**: automate parts 1 through 3 of this exercise with Python -->
+
+///
 
 ## Objective
 

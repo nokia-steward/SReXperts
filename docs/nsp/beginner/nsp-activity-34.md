@@ -17,15 +17,15 @@ This activity introduces **Service Profiles** (for example **Gold**, **Silver**,
 
 ## Technology Explanation
 
-### Intent Manager
+### Network Intents
 
-Intent Manager provides intent-based networking in NSP. It turns high-level objectives into automated actions so operators state **what** they want instead of **how** to configure it. Intent types are implemented in JavaScript using YANG-based models.
+Network Intents provides intent-based networking in NSP. It turns high-level objectives into automated actions so operators state **what** they want instead of **how** to configure it. Intent types are implemented in JavaScript using YANG-based models.
 
 Declarative intent configuration (with validation) is kept separate from lifecycle operations (CRUD, audits, and synchronization): sync deploys changes and reconciles misaligned state, and audits detect drift. 
 
 ## Intent Type View
 
-A view in Intent Manager lets you save a specific layout and filter criteria so you can quickly access subsets of your network configuration without rebuilding the interface manually. In this activity, we focus on managing the **epipe-site-sr** intent type.
+A view in Network Intents lets you save a specific layout and filter criteria so you can quickly access subsets of your network configuration without rebuilding the interface manually. In this activity, we focus on managing the **epipe-site-sr** intent type.
 
 ## Tasks
 
@@ -43,7 +43,7 @@ It is tempting to skip ahead, but tasks may require you to have completed previo
 | --- | --- |
 | **NE Session** | `☰` → `Network Search and Inventory` → find your group’s PE node (for example `g7-pe1`) → open the row context menu `⋮` → `Open in NE Session`. |
 | **NSP Help** | `?` icon at the top right for context-aware quick help and to open the Help Center. On some pages, `?` also links directly to related Help Center articles. |
-| **Intent Manager** | `☰` → `Network Intents` |
+| **Network Intents** | `☰` → `Network Intents` |
 | **Service Management** | `☰` → `Service Management` |
 
 
@@ -65,7 +65,7 @@ Before configuring the view, each user must create a unique version of the inten
 
 5. Click **Execute** to start the workflow.
 6. To monitor the progress, open the dropdown menu and select **Executions**. Verify that the workflow completes successfully.
-7. After the execution has completed, navigate to **Intent Manager** and search for the newly created version of the **`epipe-site-sr`** intent type using your assigned version number.
+7. After the execution has completed, navigate to **Network Intents** and search for the newly created version of the **`epipe-site-sr`** intent type using your assigned version number.
 
 /// note
 Make sure to use the correct Intent Type, i.e. the one that was just created with the version number corresponding to your group number
@@ -83,7 +83,7 @@ Once these steps are complete, proceed to the next exercise.
 
 ### Create a new view
 
-1. Navigate to **Intent Manager** and ensure you are in the **Intent Types** dropdown. Double-click the group-specific intent type version you created in the previous task.
+1. Navigate to **Network Intents** and ensure you are in the **Intent Types** dropdown. Double-click the group-specific intent type version you created in the previous task.
 2. Click the **Manage Views** button on the top-right corner of the workspace.
 3. In the Manage Views interface, click the **+** icon to create a view and provide a name that includes the **Service Profile**, the **Group Name**, and a reference to the **epipe-site-sr** intent type.
     * *Format:* `g[GroupID]_[ServiceProfile]_epipe-site-sr`
@@ -112,7 +112,7 @@ After confirming in the "Views" tab that the schemaForm is behaving the way it s
 ### Create a new service site template
 
 /// note
-In **Intent Manager**, make sure the underlying **Intent Type** is set to **Active** state.
+In **Network Intents**, make sure the underlying **Intent Type** is set to **Active** state.
 ///
 
 Navigate to **Service Management** and select **Service Site Templates** from the dropdown. Fill in the details based on the intent type version and view you created. Repeat the process to create multiple **Service Site Templates** one for each view you had created with a meaningful name that reflects the service profile and your group name.
@@ -122,7 +122,7 @@ Navigate to **Service Management** and select **Service Site Templates** from th
 In this task, you create a new service template using the schemaForm from the previous task.
 
 /// note
-In **Intent Manager**, make sure the underlying **Intent Type** is set to **Active** state.
+In **Network Intents**, make sure the underlying **Intent Type** is set to **Active** state.
 ///
 
 1. Navigate to **Service Management** and select **Service Templates** from the dropdown.
@@ -145,7 +145,7 @@ With all templates in place, let’s test your work. Choose the service template
 
 Congratulations! You have completed this activity. Take a moment to review what you achieved:
 
-* Gained hands-on experience in the Intent Manager backend by manually exporting, editing JSON metadata for version control, and re-importing custom intent types.
+* Gained hands-on experience in the Network Intents backend by manually exporting, editing JSON metadata for version control, and re-importing custom intent types.
 * Demonstrated the ability to transform a standard data model into a tailored user experience by utilizing the "Build ViewConfig" tool to hide, show, and rename attributes.
 * Learned how to reduce operational risk by abstracting complex network parameters into simple "Gold, Silver, and Bronze" service tiers.
 * Created a service in the network using your own intent type.

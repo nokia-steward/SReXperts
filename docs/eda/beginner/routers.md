@@ -11,12 +11,17 @@
 | **Resources used**    | **Virtual Networks** → **Routers** / **Routed Interfaces**                                                 |
 | **Topology Nodes**    | :material-server: client11, :material-server: client13, :material-router: leaf11, :material-router: leaf13 |
 
+/// admonition | This exercise relies on resources created in the previous exercise!
+    type: warning
+
 This is the second exercise in a 3-part series about using EDA to achieve connectivity to, from, and within your datacenter. In this exercise, we will achieve layer-3 connectivity between two hosts in different broadcast domains.
 
 - **[Part 1](bridge-domains.md)**: achieve layer-2 connectivity using bridge domains
 - **Part 2 (this activity)**: achieve layer-3 connectivity using routers
 - **[Part 3](virtual-networks.md)**: combine layer-2 and layer-3 connectivity through a single EDA object: the Virtual Network
 <!-- - **[Part 4](../advanced/service-automation.md)**: automate parts 1 through 3 of this exercise with Python -->
+
+///
 
 ## Objective
 

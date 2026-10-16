@@ -43,7 +43,7 @@ Various plugins are used throughout the different activities included in this ye
 * NETCONF Explorer
 * NSP Workflow Manager
 * NSP Artifact Administrator
-* NSP Intent Manager
+* NSP Network Intents
 * Containerlab
 
 With the exception of the last element in the list, these plugins and what you are expected to use them for is documented as part of the related activity. The containerlab VS Code extension is documented [here](https://containerlab.dev/manual/gui/vsc-extension/#containerlab-vs-code-extension) as it has many uses. Amongst others, it gives you a large amount of control over your hackathon topology, including [traffic captures](../tools/tools-packet-capture.md#edgeshark-from-vs-code) and a convenient way to log in to the nodes in the network as shown in Fig. 3.
