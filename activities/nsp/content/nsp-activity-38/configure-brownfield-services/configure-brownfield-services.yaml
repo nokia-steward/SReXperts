@@ -268,9 +268,8 @@ configure-brownfield-services:
           scope = (context.get("service_scope") or "all").lower()
           group = int(context.get("group") or 1)
           g = max(1, group)
-          base = (g - 1) * 100
-          vprn_id = 501 + base
-          vpls_id = 601 + base
+          vprn_id = 3810 + (g - 1) * 10
+          vpls_id = 3815 + (g - 1) * 10
           vprn_name_base = "activity-38-g%d-vprn" % g
           vpls_name_base = "activity-38-g%d-vpls" % g
           out = []

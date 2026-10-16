@@ -9,13 +9,19 @@
 | **Difficulty**        | Beginner                                                                                     |
 | **Topology Nodes**    | :material-server: client11, :material-server: client12, :material-server: client13, :material-router: leaf11, :material-router: leaf12, :material-router: leaf13           |
 
+/// admonition | This exercise relies on resources created in the previous exercises!
+    type: warning
+
 This is the third exercise in a 3-part series around using Nokia EDA to achieve connectivity within your datacenter. In this exercise, we will leverage the knowledge gained in the previous two parts and deploy both layer-2 and layer-3 overlay services.  
+
 Thanks to the power of abstracted and derived intents, under the hood the virtual network will create the individual resources we created manually in parts 1 & 2.
 
 - **[Part 1](bridge-domains.md)**: achieve layer-2 connectivity using bridge domains
 - **[Part 2](routers.md)**: achieve layer-3 connectivity using routers
 - **Part 3 (this activity)**: combine layer-2 and layer-3 connectivity through a single EDA object: the Virtual Network
 <!-- - **[Part 4](../advanced/service-automation.md)**: automate parts 1 through 3 of this exercise with Python -->
+
+///
 
 ## Objective
 

@@ -29,6 +29,7 @@ nav:
               - nos/sros/advanced/159-custom-grpcserver-configuration.md
       - SR Linux:
           - Beginner:
+              - nos/srlinux/beginner/21-automating-network-operations.md
               - nos/srlinux/beginner/52-SR_Linux_remote_logging_with_Syslog_and_Loki.md
               - nos/srlinux/beginner/26-sr-linux-realtime-monitoring-via-gnmi.md
               - nos/srlinux/beginner/20-sr-linux-fund-real-world-tshoot-scen.md
@@ -80,8 +81,8 @@ site_author: Nokia
 site_description: >-
   SReXperts Hackathon event guidelines
 # Repository
-repo_name: nokia/SReXperts
-repo_url: https://github.com/nokia/SReXperts
+repo_name: srexperts/srx-hackplanning-2026
+repo_url: https://github.com/srexperts/srx-hackplanning-2026
 edit_uri: edit/main/docs/
 site_url: "https://hackathon.srexperts.net/"
 copyright: Copyright &copy; 2021-2026 Nokia
@@ -230,8 +231,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: nokia
-      repo: SReXperts
+      user: srexperts
+      repo: srx-hackplanning-2026
   - pymdownx.mark
   - pymdownx.smartsymbols:
       fractions: false

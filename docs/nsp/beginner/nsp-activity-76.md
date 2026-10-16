@@ -43,7 +43,7 @@ This activity requires NSP with **VSR NRC** enabled. Use one of the following in
 |     |     |     |
 | --- | --- | --- |
 | **Server** | `nsp1.srexperts.net` | `nsp2.srexperts.net` |
-| **Instance** | 2 | 52 |
+| **Instance** | 2 | 42 |
 | **Username** | `pathcontrol` |
 | **Password** | `EVENT_PASSWORD` |
 

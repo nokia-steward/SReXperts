@@ -6,7 +6,7 @@
 | **Activity ID** | 67 |
 | **Short Description** | Provision services that draw resources using NSP Resource Management |
 | **Difficulty** | Beginner |
-| **Topology Nodes** | any :material-router: PE nodes |
+| **Topology Nodes** | any SR OS :material-router: PE nodes |
 | **References** | [Workflow Development](https://network.developer.nokia.com/learn/25_11/artifact-development/programming/workflows/wfm-workflow-development/) <br> [Mistral DSL v2 specification](https://docs.openstack.org/mistral/ocata/dsl/dsl_v2.html) <br> [Resource Management](https://network.developer.nokia.com/learn/25_11/artifact-development/programming/network-automation/resource-manager/) <br> [Resource Pool API Collection](https://network.developer.nokia.com/api-collections/25.11/Resource_Administration_RESTCONF_API/) <br> [Intent-Based Service Fulfillment (IBSF)](https://network.developer.nokia.com/learn/25_11/API-reference/network-functions/service-management/) |
 
 ## Objective
@@ -30,6 +30,10 @@ IBSF (**Service Management**) provides a declarative service lifecycle managemen
 WFM (built on OpenStack Mistral DSL v2) workflows can interact with various NSP components and external systems. For this activity, the provisioning workflow artifacts are available preinstalled. They orchestrate resource pool obtain/release and delegate the actual service deployment to IBSF, giving you explicit control over each phase without modifying the intent-type code.
 
 ## Tasks
+
+/// note
+This activity supports **Nokia SR OS** PE nodes only.
+///
 
 /// warning
 Remember that you are using a shared NSP system. Include your group number in every workflow input that asks for **Group**.
